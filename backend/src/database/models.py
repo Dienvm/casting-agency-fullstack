@@ -5,20 +5,13 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
-database_username = os.environ['DB_USER']
-database_password = os.environ['DB_PASSWORD']
-db_host = os.environ['DB_HOST']
-db_port = os.environ['DB_PORT']
-database_name = os.environ['DB_NAME']
+# database_username = os.environ['DB_USER']
+# database_password = os.environ['DB_PASSWORD']
+# db_host = os.environ['DB_HOST']
+# db_port = os.environ['DB_PORT']
+# database_name = os.environ['DB_NAME']
 
-database_path = 'postgresql://{}:{}@{}:{}/{}'.format(
-    database_username,
-    database_password,
-    db_host,
-    db_port,
-    database_name
-)
-
+database_path = os.environ[DATABASE_URL]
 db = SQLAlchemy()
 
 """
