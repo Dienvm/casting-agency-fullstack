@@ -11,7 +11,7 @@ load_dotenv()
 # db_port = os.environ['DB_PORT']
 # database_name = os.environ['DB_NAME']
 
-database_path = os.environ[DATABASE_URL]
+database_path = os.environ['DATABASE_URL']
 db = SQLAlchemy()
 
 """
