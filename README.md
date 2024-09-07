@@ -1,15 +1,4 @@
-# Coffee Shop Full Stack
-
-## Full Stack Nano - IAM Final Project
-
-Udacity has decided to open a new digitally enabled cafe for students to order drinks, socialize, and study hard. But they need help setting up their menu experience.
-
-You have been called on to demonstrate your newly learned skills to create a full stack drink menu application. The application must:
-
-1. Display graphics representing the ratios of ingredients in each drink.
-2. Allow public users to view drink names and graphics.
-3. Allow the shop baristas to see the recipe information.
-4. Allow the shop managers to create new drinks and edit existing drinks.
+# Casting Agency Fullstack
 
 ## Tasks
 
@@ -33,3 +22,15 @@ The `./backend` directory contains a partially completed Flask server with a pre
 The `./frontend` directory contains a complete Ionic frontend to consume the data from the Flask server. You will only need to update the environment variables found within (./frontend/src/environment/environment.ts) to reflect the Auth0 configuration details set up for the backend app.
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
+
+### Deployment
+
+[Backend URL](https://casting-agency-fullstack.onrender.com/)
+
+[Frontend URL](https://casting-agency-fullstack-1.onrender.com/)
+
+#### User testing
+
+<casting_assistant@gmail.com>/Abcd@1234
+<casting_director@gmail.com>/Abcd@1234
+<executive_producer@gmail.com>/Abcd@1234
