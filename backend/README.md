@@ -107,6 +107,10 @@ createdb casting_agency_test
 python test_flaskr.py
 ```
 
+### Test result
+
+![Test result](./test_flaskr.png)
+
 ### User
 
 <casting_assistant@gmail.com>/Abcd@1234
